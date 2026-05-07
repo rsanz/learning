@@ -1,0 +1,372 @@
+[0.016s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.501s] -- Found builtin_interfaces: 2.0.3 (/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.536s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.593s] -- Found rosidl_core_generators: 0.2.1 (/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+[0.607s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.608s] -- Found unique_identifier_msgs: 2.5.0 (/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake)
+[1.084s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.087s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.090s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.092s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.000s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.111s] -- Found PythonExtra: /usr/bin/python3  
+[2.445s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.475s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.477s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.480s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.494s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.495s] -- Added test 'lint_cmake' to check CMake code style
+[2.496s] -- Added test 'xmllint' to check XML markup files
+[2.498s] -- Configuring done (2.5s)
+[2.535s] -- Generating done (0.0s)
+[2.544s] -- Build files have been written to: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs
+[2.552s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs
+[2.553s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs -- -j24 -l24
+[2.596s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.597s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.604s] [  3%] Built target ament_cmake_python_copy_action_msgs
+[2.795s] running egg_info
+[2.796s] creating action_msgs.egg-info
+[2.816s] writing action_msgs.egg-info/PKG-INFO
+[2.816s] writing dependency_links to action_msgs.egg-info/dependency_links.txt
+[2.816s] writing top-level names to action_msgs.egg-info/top_level.txt
+[2.816s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[2.878s] reading manifest file 'action_msgs.egg-info/SOURCES.txt'
+[2.878s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[2.896s] [  3%] Built target action_msgs__rosidl_generator_type_description
+[2.897s] [  3%] Built target ament_cmake_python_build_action_msgs_egg
+[2.904s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.915s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.918s] [  6%] Built target action_msgs__rs
+[3.322s] [  6%] Built target action_msgs__cpp
+[3.383s] [  9%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__functions.c.o[0m
+[3.383s] [  9%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__description.c.o[0m
+[3.383s] [ 10%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__functions.c.o[0m
+[3.383s] [ 15%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[3.383s] [ 15%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__description.c.o[0m
+[3.383s] [ 15%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[3.383s] [ 16%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__description.c.o[0m
+[3.383s] [ 18%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[3.384s] [ 20%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[3.384s] [ 23%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__functions.c.o[0m
+[3.384s] [ 23%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__description.c.o[0m
+[3.384s] [ 24%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[3.440s] [ 26%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_c.so[0m
+[3.473s] [ 26%] Built target action_msgs__rosidl_generator_c
+[3.482s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.482s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.482s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.482s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.482s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.482s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.829s] [ 36%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[3.830s] [ 38%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[3.830s] [ 40%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[3.830s] [ 41%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[3.841s] [ 44%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[3.841s] [ 44%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[3.842s] [ 46%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[3.842s] [ 47%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[3.863s] [ 49%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_info__type_support.cpp.o[0m
+[3.864s] [ 50%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[3.864s] [ 53%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/srv/detail/cancel_goal__type_support.cpp.o[0m
+[3.864s] [ 53%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[3.879s] [ 55%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[3.881s] [ 56%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[3.882s] [ 58%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[3.882s] [ 60%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[3.883s] [ 61%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[3.918s] [ 61%] Built target action_msgs__rosidl_typesupport_c
+[3.931s] [ 63%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.934s] [ 64%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[3.934s] [ 66%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[3.935s] [ 67%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/srv/detail/dds_fastrtps/cancel_goal__type_support.cpp.o[0m
+[3.938s] [ 69%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[3.968s] [ 73%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[3.968s] [ 73%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_info__type_support_c.cpp.o[0m
+[3.968s] [ 73%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/srv/detail/cancel_goal__type_support_c.cpp.o[0m
+[3.969s] [ 75%] Built target action_msgs__rosidl_typesupport_introspection_c
+[3.969s] [ 75%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[4.209s] [ 76%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[4.242s] [ 78%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.273s] [ 78%] Built target action_msgs__rosidl_typesupport_cpp
+[4.304s] [ 78%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+[4.389s] [ 80%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.430s] [ 80%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[4.448s] [ 81%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.500s] [ 81%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[4.517s] [ 81%] Built target action_msgs
+[4.533s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.155s] [ 83%] Built target action_msgs__py
+[5.171s] [ 84%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_info_s.c.o[0m
+[5.171s] [ 86%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_s.c.o[0m
+[5.172s] [ 87%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_array_s.c.o[0m
+[5.172s] [ 89%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/srv/_cancel_goal_s.c.o[0m
+[5.281s] [ 90%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_py.so[0m
+[5.316s] [ 90%] Built target action_msgs__rosidl_generator_py
+[5.333s] [ 92%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.334s] [ 93%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.335s] [ 95%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.419s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.so[0m
+[5.420s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.427s] [100%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.445s] [100%] Built target action_msgs_s__rosidl_typesupport_introspection_c
+[5.446s] [100%] Built target action_msgs_s__rosidl_typesupport_c
+[5.454s] [100%] Built target action_msgs_s__rosidl_typesupport_fastrtps_c
+[5.464s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs -- -j24 -l24
+[5.465s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs
+[5.470s] -- Install configuration: ""
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/ament_index/resource_index/rosidl_interfaces/action_msgs
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalInfo.json
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatus.json
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatusArray.json
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/srv/CancelGoal.json
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.471s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.h
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.h
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.c
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.c
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h
+[5.472s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__description.c
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.c
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.c
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h
+[5.473s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__description.c
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__description.c
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.c
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.c
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.h
+[5.474s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__description.c
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.c
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.c
+[5.475s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.h
+[5.476s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/library_path.sh
+[5.476s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/library_path.dsv
+[5.476s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
+[5.476s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so" to ""
+[5.476s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.476s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.477s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+[5.477s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.477s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_c.h
+[5.477s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+[5.478s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.478s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.478s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.hpp
+[5.478s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp
+[5.478s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp
+[5.479s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.hpp
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.hpp
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.480s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.480s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp
+[5.480s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.hpp
+[5.481s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.481s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.481s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.481s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/dds_fastrtps
+[5.482s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.482s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.482s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[5.482s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/dds_fastrtps
+[5.482s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.482s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.482s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.482s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.482s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.c
+[5.483s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[5.483s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.c
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.c
+[5.483s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.483s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_c.h
+[5.483s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.c
+[5.483s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+[5.484s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.484s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so
+[5.484s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so" to ""
+[5.484s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs
+[5.484s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg
+[5.484s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[5.484s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.cpp
+[5.484s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[5.484s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.cpp
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.cpp
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+[5.485s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv
+[5.485s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.cpp
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_cpp.hpp
+[5.485s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+[5.486s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.486s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
+[5.486s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so" to ""
+[5.486s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/ament_index/resource_index/rust_packages/action_msgs
+[5.486s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust
+[5.486s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src
+[5.486s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/msg.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/srv.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/msg
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/msg/rmw.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/srv
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/srv/rmw.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/src/lib.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/build.rs
+[5.487s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/rust/Cargo.toml
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/pythonpath.sh
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/pythonpath.dsv
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.0.3-py3.12.egg-info
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.0.3-py3.12.egg-info/dependency_links.txt
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.0.3-py3.12.egg-info/PKG-INFO
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.0.3-py3.12.egg-info/top_level.txt
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.0.3-py3.12.egg-info/SOURCES.txt
+[5.488s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg
+[5.489s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status.py
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array_s.c
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info.py
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info_s.c
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/__init__.py
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array.py
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_s.c
+[5.490s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/__init__.py
+[5.491s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv
+[5.491s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal_s.c
+[5.491s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal.py
+[5.491s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/__init__.py
+[5.524s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/__init__.py'...
+[5.524s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/__init__.py'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info.py'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status.py'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array.py'...
+[5.524s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/__init__.py'...
+[5.524s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal.py'...
+[5.527s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.528s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.528s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so
+[5.528s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.529s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so
+[5.529s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so" to ""
+[5.529s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so
+[5.529s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so" to ""
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalInfo.msg
+[5.530s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatus.msg
+[5.531s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/msg/GoalStatusArray.msg
+[5.531s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/srv/CancelGoal.srv
+[5.531s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/ament_index/resource_index/package_run_dependencies/action_msgs
+[5.531s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/ament_index/resource_index/parent_prefix_path/action_msgs
+[5.531s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/ament_prefix_path.sh
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/ament_prefix_path.dsv
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/path.sh
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/environment/path.dsv
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/local_setup.bash
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/local_setup.sh
+[5.532s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/local_setup.zsh
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/local_setup.dsv
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/package.dsv
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/ament_index/resource_index/packages/action_msgs
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport.cmake
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.533s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cppExport.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.534s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.535s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/rosidl_cmake-extras.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.536s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.537s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.537s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgsConfig.cmake
+[5.537s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/cmake/action_msgsConfig-version.cmake
+[5.537s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/action_msgs/share/action_msgs/package.xml
+[5.539s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/action_msgs

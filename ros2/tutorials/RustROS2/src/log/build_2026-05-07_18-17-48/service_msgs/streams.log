@@ -1,0 +1,249 @@
+[0.010s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/service_msgs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.109s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.391s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.473s] -- Found builtin_interfaces: 2.0.3 (/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.503s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rosidl_core_generators: 0.2.1 (/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+[0.565s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.001s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.003s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.006s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.008s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.910s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.015s] -- Found PythonExtra: /usr/bin/python3  
+[2.344s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.370s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.372s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.375s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.388s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.389s] -- Added test 'lint_cmake' to check CMake code style
+[2.389s] -- Added test 'xmllint' to check XML markup files
+[2.392s] -- Configuring done (2.4s)
+[2.420s] -- Generating done (0.0s)
+[2.431s] -- Build files have been written to: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs
+[2.440s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/service_msgs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs
+[2.441s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs -- -j24 -l24
+[2.483s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.483s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.490s] [  5%] Built target ament_cmake_python_copy_service_msgs
+[2.655s] [  5%] Built target service_msgs__rosidl_generator_type_description
+[2.663s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.671s] [  8%] Built target service_msgs__rs
+[2.673s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.685s] running egg_info
+[2.686s] creating service_msgs.egg-info
+[2.707s] writing service_msgs.egg-info/PKG-INFO
+[2.707s] writing dependency_links to service_msgs.egg-info/dependency_links.txt
+[2.707s] writing top-level names to service_msgs.egg-info/top_level.txt
+[2.707s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[2.770s] reading manifest file 'service_msgs.egg-info/SOURCES.txt'
+[2.771s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[2.790s] [ 11%] Built target ament_cmake_python_build_service_msgs_egg
+[2.870s] [ 11%] Built target service_msgs__cpp
+[2.883s] [ 14%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.o[0m
+[2.883s] [ 17%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.o[0m
+[2.884s] [ 20%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[2.918s] [ 22%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_c.so[0m
+[2.945s] [ 22%] Built target service_msgs__rosidl_generator_c
+[2.954s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.954s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.954s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.954s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.954s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.954s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.143s] [ 42%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[3.145s] [ 45%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[3.158s] [ 48%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_msgs/msg/detail/service_event_info__type_support.cpp.o[0m
+[3.164s] [ 51%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[3.171s] [ 54%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_msgs/msg/detail/dds_fastrtps/service_event_info__type_support.cpp.o[0m
+[3.171s] [ 57%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_msgs/msg/detail/service_event_info__type_support_c.cpp.o[0m
+[3.176s] [ 60%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_c.so[0m
+[3.195s] [ 62%] [32m[1mLinking C shared library libservice_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.208s] [ 62%] Built target service_msgs__rosidl_typesupport_c
+[3.221s] [ 62%] Built target service_msgs__rosidl_typesupport_introspection_c
+[3.356s] [ 65%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_cpp.so[0m
+[3.371s] [ 68%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.391s] [ 68%] Built target service_msgs__rosidl_typesupport_cpp
+[3.426s] [ 68%] Built target service_msgs__rosidl_typesupport_introspection_cpp
+[3.482s] [ 71%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.496s] [ 74%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.520s] [ 74%] Built target service_msgs__rosidl_typesupport_fastrtps_c
+[3.549s] [ 74%] Built target service_msgs__rosidl_typesupport_fastrtps_cpp
+[3.566s] [ 74%] Built target service_msgs
+[3.582s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.837s] [ 77%] Built target service_msgs__py
+[3.852s] [ 80%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_py.dir/rosidl_generator_py/service_msgs/msg/_service_event_info_s.c.o[0m
+[3.942s] [ 82%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_py.so[0m
+[3.975s] [ 82%] Built target service_msgs__rosidl_generator_py
+[3.992s] [ 85%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.993s] [ 88%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.993s] [ 91%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.065s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_c.so[0m
+[4.065s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.068s] [100%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.090s] [100%] Built target service_msgs_s__rosidl_typesupport_c
+[4.090s] [100%] Built target service_msgs_s__rosidl_typesupport_introspection_c
+[4.094s] [100%] Built target service_msgs_s__rosidl_typesupport_fastrtps_c
+[4.104s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs -- -j24 -l24
+[4.105s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs
+[4.111s] -- Install configuration: ""
+[4.111s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs
+[4.111s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.json
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
+[4.112s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[4.113s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.h
+[4.113s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.c
+[4.113s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__description.c
+[4.113s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h
+[4.113s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.h
+[4.114s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/library_path.sh
+[4.114s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/library_path.dsv
+[4.114s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so
+[4.114s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so" to ""
+[4.114s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.114s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.115s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.115s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.115s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_c.h
+[4.115s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+[4.115s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.115s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.116s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.hpp
+[4.116s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.hpp
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__builder.hpp
+[4.116s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.116s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.117s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.117s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.117s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.117s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.117s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/dds_fastrtps
+[4.117s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.117s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.117s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.118s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.118s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.118s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.118s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[4.118s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_c.h
+[4.118s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+[4.119s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.119s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so
+[4.119s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so" to ""
+[4.119s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs
+[4.119s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg
+[4.119s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[4.119s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_cpp.hpp
+[4.119s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.cpp
+[4.119s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+[4.120s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.120s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so
+[4.120s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so" to ""
+[4.120s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/ament_index/resource_index/rust_packages/service_msgs
+[4.120s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust
+[4.120s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/src
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/src/msg.rs
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/src/msg
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/src/msg/rmw.rs
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/src/lib.rs
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/build.rs
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/rust/Cargo.toml
+[4.121s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/pythonpath.sh
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/pythonpath.dsv
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.3-py3.12.egg-info
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.3-py3.12.egg-info/dependency_links.txt
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.3-py3.12.egg-info/PKG-INFO
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.3-py3.12.egg-info/top_level.txt
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.3-py3.12.egg-info/SOURCES.txt
+[4.122s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info_s.c
+[4.123s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py
+[4.124s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py
+[4.124s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py
+[4.124s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c
+[4.152s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs'...
+[4.152s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py'...
+[4.152s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg'...
+[4.152s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py'...
+[4.152s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py'...
+[4.155s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.156s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.156s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[4.156s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[4.156s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[4.157s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so" to ""
+[4.157s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so
+[4.157s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so" to ""
+[4.157s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
+[4.157s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.msg
+[4.158s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+[4.158s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+[4.158s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+[4.158s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+[4.158s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/path.sh
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/environment/path.dsv
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/local_setup.bash
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/local_setup.sh
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/local_setup.zsh
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/local_setup.dsv
+[4.159s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/package.dsv
+[4.160s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+[4.160s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake
+[4.160s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.160s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cppExport.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.161s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport.cmake
+[4.162s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.163s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.164s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.164s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.164s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+[4.164s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+[4.164s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/package.xml
+[4.167s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/lib/python3.12/site-packages:/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/service_msgs

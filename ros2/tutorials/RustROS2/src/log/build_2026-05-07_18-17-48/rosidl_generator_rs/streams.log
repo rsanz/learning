@@ -1,0 +1,91 @@
+[0.009s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rosidl_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.097s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.395s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.616s] -- Configuring done (0.6s)
+[0.620s] -- Generating done (0.0s)
+[0.622s] -- Build files have been written to: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs
+[0.626s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rosidl_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs
+[0.628s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs -- -j24 -l24
+[0.671s] Built target ament_cmake_python_copy_rosidl_generator_rs
+[0.860s] running egg_info
+[0.860s] creating rosidl_generator_rs.egg-info
+[0.880s] writing rosidl_generator_rs.egg-info/PKG-INFO
+[0.880s] writing dependency_links to rosidl_generator_rs.egg-info/dependency_links.txt
+[0.881s] writing top-level names to rosidl_generator_rs.egg-info/top_level.txt
+[0.881s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[0.940s] reading manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[0.940s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[0.961s] Built target ament_cmake_python_build_rosidl_generator_rs_egg
+[0.971s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs -- -j24 -l24
+[0.978s] Invoking command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs
+[0.984s] -- Install configuration: ""
+[0.984s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_rs
+[0.984s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.sh
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.dsv
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.12-py3.12.egg-info
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.12-py3.12.egg-info/dependency_links.txt
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.12-py3.12.egg-info/PKG-INFO
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.12-py3.12.egg-info/top_level.txt
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.12-py3.12.egg-info/SOURCES.txt
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs
+[0.985s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py
+[1.014s] Listing '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs'...
+[1.014s] Compiling '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py'...
+[1.019s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_rs
+[1.019s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_rs
+[1.020s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.sh
+[1.020s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.dsv
+[1.020s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.sh
+[1.020s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.dsv
+[1.020s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.bash
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.sh
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.zsh
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.dsv
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/package.dsv
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/ament_index/resource_index/packages/rosidl_generator_rs
+[1.021s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/package.xml
+[1.022s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[1.022s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[1.023s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/lib/rosidl_generator_rs/rosidl_generator_rs
+[1.023s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[1.023s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[1.023s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[1.023s] -- Up-to-date: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action.rs.em
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/build.rs.em
+[1.023s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv.rs.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/Cargo.toml.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/msg_idiomatic.rs.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg
+[1.024s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg/rmw.rs.em
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/lib.rs.em
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action/rmw.rs.em
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv/rmw.rs.em
+[1.025s] -- Installing: /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg.rs.em
+[1.027s] Invoked command in '/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rosidl_generator_rs
