@@ -1,0 +1,69 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ------------------------------
+# Logs / temp
+# ------------------------------
+*.log
+*.tmp
+*.temp
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ------------------------------
+# Rust
+# ------------------------------
+**/target/
+
+# ------------------------------
+# C / C++ / CMake
+# ------------------------------
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# ------------------------------
+# ROS2 / colcon
+# ------------------------------
+**/build/
+**/install/
+**/log/
+.colcon/
+
+# ------------------------------
+# Archives / binaries
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.bin
