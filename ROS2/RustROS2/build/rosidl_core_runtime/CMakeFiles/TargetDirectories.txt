@@ -1,8 +1,0 @@
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/uninstall.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/rosidl_core_runtime_uninstall.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/test.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/edit_cache.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/rebuild_cache.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/list_install_components.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/install.dir
-/home/rsanz/git/learning/ROS2/RustROS2/build/rosidl_core_runtime/CMakeFiles/install/local.dir
