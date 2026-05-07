@@ -20,3 +20,28 @@ It covers:
 
 Start here:
 - `tutorials/RustROS2/RustROS2.md`
+
+## Tutorial Highlight: Git-Github
+
+The Git-Github tutorial describes a practical collaboration workflow for ROS 2 projects, focused on clean repository structure, safe team development, and reproducible setup.
+
+It covers:
+- How to separate ROS 2 workspace usage from what should be version-controlled in Git repositories.
+- A recommended `.gitignore` for ROS 2 build artifacts and common editor/system files.
+- A feature-branch + pull request workflow (GitHub Flow) with local build/test steps before merge.
+- Managing multi-repository dependencies using `.repos` files and `vcstool` instead of submodules.
+- Adding automated CI with GitHub Actions to run build and test checks on pushes and PRs.
+
+Start here:
+- `tutorials/Git-Github/GIt-Github.md`
+
+## Exercises
+
+Hands-on practice for ROS 2 topics is organized under `exercises/`.
+
+Git-Github workflow exercises:
+- `exercises/Git-Github/README.md`
+- `exercises/Git-Github/01-repository-structure-and-gitignore.md`
+- `exercises/Git-Github/02-feature-branch-workflow.md`
+- `exercises/Git-Github/03-multi-repo-dependencies-with-vcstool.md`
+- `exercises/Git-Github/04-ci-and-pr-quality-gates.md`
