@@ -1,6 +1,0 @@
-{
-  "package_name": "service_msgs",
-  "non_idl_tuples": [
-    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/service_msgs:msg/ServiceEventInfo.msg"
-  ]
-}

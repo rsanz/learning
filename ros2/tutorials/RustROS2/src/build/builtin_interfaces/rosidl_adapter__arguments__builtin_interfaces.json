@@ -1,7 +1,0 @@
-{
-  "package_name": "builtin_interfaces",
-  "non_idl_tuples": [
-    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/builtin_interfaces:msg/Duration.msg",
-    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/builtin_interfaces:msg/Time.msg"
-  ]
-}

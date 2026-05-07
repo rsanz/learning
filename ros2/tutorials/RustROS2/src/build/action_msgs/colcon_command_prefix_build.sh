@@ -1,7 +1,0 @@
-# generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_generator_rs/share/rosidl_generator_rs/package.sh"
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_generators/share/rosidl_core_generators/package.sh"
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/package.sh"
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/builtin_interfaces/share/builtin_interfaces/package.sh"
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/unique_identifier_msgs/share/unique_identifier_msgs/package.sh"
-. "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/service_msgs/share/service_msgs/package.sh"
