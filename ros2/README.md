@@ -21,6 +21,20 @@ It covers:
 Start here:
 - `tutorials/RustROS2/RustROS2.md`
 
+## Tutorial Highlight: CppROS2
+
+The CppROS2 tutorial explains how to build and run a minimal ROS 2 Jazzy publisher/subscriber project in C++ using `rclcpp` with a `colcon` + `ament_cmake` workflow.
+
+It covers:
+- Why `colcon` + `ament_cmake` is the recommended ROS 2 C++ workflow.
+- Required system and ROS Jazzy C++ dependencies.
+- Correct ROS package layout and metadata (`package.xml` + `CMakeLists.txt`).
+- Working `talker.cpp` and `listener.cpp` using `rclcpp`.
+- Verified build, run, and topic/node verification commands.
+
+Start here:
+- `tutorials/CppROS2/CppROS2.md`
+
 ## Tutorial Highlight: Git-Github
 
 The Git-Github tutorial describes a practical collaboration workflow for ROS 2 projects, focused on clean repository structure, safe team development, and reproducible setup.
