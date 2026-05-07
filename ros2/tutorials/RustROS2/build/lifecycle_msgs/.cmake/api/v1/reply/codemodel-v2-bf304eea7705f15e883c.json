@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c84f432ecf3a6fd206bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "lifecycle_msgs__rs",
+					"jsonFile" : "directory-lifecycle_msgs__rs-fe507e1f95ce53c2f170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/lifecycle_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "lifecycle_msgs__py",
+					"jsonFile" : "directory-lifecycle_msgs__py-dce1ad471dde50ee9265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/lifecycle_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "lifecycle_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lifecycle_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lifecycle_msgs_egg-f181c90db3069e7d7182.json",
+					"name" : "ament_cmake_python_build_lifecycle_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lifecycle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lifecycle_msgs-4111b85bdd682e9e4359.json",
+					"name" : "ament_cmake_python_copy_lifecycle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs-1a26909a8ddb5199b2ab.json",
+					"name" : "lifecycle_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__cpp-4b2ffb6a8bdbca9319a5.json",
+					"name" : "lifecycle_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lifecycle_msgs__py::@f0f0e69fddc4ccdd07ae",
+					"jsonFile" : "target-lifecycle_msgs__py-3405a3319ece1532a66f.json",
+					"name" : "lifecycle_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_c-fbff0a948bf0acfa60e5.json",
+					"name" : "lifecycle_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_py-8542b0c59ba478b98b05.json",
+					"name" : "lifecycle_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_generator_type_description-c3191eb9380f3b0367a9.json",
+					"name" : "lifecycle_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_c-20939fbcdb360a900e79.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_cpp-a6bb4b30b4e535d6c7e1.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_fastrtps_c-d0ba5f147428f251f29e.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_fastrtps_cpp-f8a3cc97a73f7a45c9dc.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_introspection_c-0e30e7123a773aaa2a5b.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs__rosidl_typesupport_introspection_cpp-b95e6a89e8abb7c8d445.json",
+					"name" : "lifecycle_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lifecycle_msgs__rs::@b853f7567ef3e2c4045e",
+					"jsonFile" : "target-lifecycle_msgs__rs-d609a653c6dc6562c249.json",
+					"name" : "lifecycle_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_c-fbb3f984e746b5594bf2.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_fastrtps_c-2f00667e09e1a215ff66.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_s__rosidl_typesupport_introspection_c-328f46d9ea91c30603f7.json",
+					"name" : "lifecycle_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_msgs_uninstall-f1b78bc022097356af27.json",
+					"name" : "lifecycle_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82406ee1e0d2ca490bf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs",
+		"source" : "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/lifecycle_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
