@@ -1,0 +1,9 @@
+{
+  "package_name": "action_msgs",
+  "non_idl_tuples": [
+    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+  ]
+}

@@ -1,0 +1,11 @@
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rust_pubsub/debug/deps/ament_rs-f2d73e7fe981df48.d: /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/lib.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/ament.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/packages.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/resources.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/search_paths.rs
+
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rust_pubsub/debug/deps/libament_rs-f2d73e7fe981df48.rlib: /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/lib.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/ament.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/packages.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/resources.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/search_paths.rs
+
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/rust_pubsub/debug/deps/libament_rs-f2d73e7fe981df48.rmeta: /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/lib.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/ament.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/packages.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/resources.rs /home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/search_paths.rs
+
+/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/lib.rs:
+/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/ament.rs:
+/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/packages.rs:
+/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/resources.rs:
+/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ament_rs-0.2.1/src/search_paths.rs:

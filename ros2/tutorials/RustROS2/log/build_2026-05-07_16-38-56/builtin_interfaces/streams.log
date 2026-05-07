@@ -1,0 +1,276 @@
+[0.008s] Invoking command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.103s] -- The CXX compiler identification is GNU 13.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.492s] -- Found rosidl_core_generators: 0.2.1 (/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.057s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.059s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.061s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.063s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.002s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.111s] -- Found PythonExtra: /usr/bin/python3  
+[2.474s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.501s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.503s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.513s] -- Configuring done (2.5s)
+[2.548s] -- Generating done (0.0s)
+[2.557s] -- Build files have been written to: /home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces
+[2.564s] Invoked command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces
+[2.565s] Invoking command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces -- -j24 -l24
+[2.606s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.607s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.613s] [  4%] Built target ament_cmake_python_copy_builtin_interfaces
+[2.794s] [  4%] Built target builtin_interfaces__rosidl_generator_type_description
+[2.804s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.812s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.815s] [  8%] Built target builtin_interfaces__rs
+[2.820s] running egg_info
+[2.821s] creating builtin_interfaces.egg-info
+[2.845s] writing builtin_interfaces.egg-info/PKG-INFO
+[2.845s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[2.845s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[2.845s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[2.916s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[2.916s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[2.937s] [  8%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[3.043s] [  8%] Built target builtin_interfaces__cpp
+[3.074s] [ 11%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__description.c.o[0m
+[3.075s] [ 15%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[3.075s] [ 15%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__description.c.o[0m
+[3.075s] [ 17%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[3.075s] [ 20%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[3.076s] [ 22%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[3.111s] [ 24%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[3.144s] [ 24%] Built target builtin_interfaces__rosidl_generator_c
+[3.152s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.153s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.153s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.153s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.154s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.155s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.376s] [ 40%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[3.376s] [ 42%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[3.382s] [ 44%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[3.382s] [ 46%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[3.386s] [ 51%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[3.387s] [ 51%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[3.387s] [ 53%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[3.388s] [ 55%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[3.419s] [ 57%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[3.419s] [ 60%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[3.420s] [ 62%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[3.426s] [ 64%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.439s] [ 68%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[3.439s] [ 68%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[3.457s] [ 68%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[3.458s] [ 68%] Built target builtin_interfaces__rosidl_typesupport_c
+[3.648s] [ 71%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.649s] [ 73%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[3.690s] [ 73%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[3.690s] [ 73%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[3.793s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.819s] [ 77%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.835s] [ 77%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.859s] [ 77%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[3.875s] [ 77%] Built target builtin_interfaces
+[3.894s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.186s] [ 80%] Built target builtin_interfaces__py
+[4.204s] [ 84%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[4.204s] [ 84%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[4.286s] [ 86%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_py.so[0m
+[4.319s] [ 86%] Built target builtin_interfaces__rosidl_generator_py
+[4.336s] [ 88%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.336s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.336s] [ 93%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.413s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so[0m
+[4.414s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.416s] [100%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[4.440s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_c
+[4.440s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_fastrtps_c
+[4.443s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_introspection_c
+[4.453s] Invoked command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces -- -j24 -l24
+[4.454s] Invoking command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces
+[4.462s] -- Install configuration: ""
+[4.462s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[4.462s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.json
+[4.462s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Time.json
+[4.462s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.462s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[4.463s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__description.c
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__description.c
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[4.464s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[4.465s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[4.465s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[4.465s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[4.465s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[4.465s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.465s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.466s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.466s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.466s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[4.466s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[4.466s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.466s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.466s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.466s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.466s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.466s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.467s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[4.467s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[4.467s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[4.467s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[4.467s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[4.467s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.467s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[4.468s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[4.468s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.468s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.468s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[4.468s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.468s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[4.468s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[4.468s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[4.468s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[4.469s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.469s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.469s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.470s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.470s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.470s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[4.470s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[4.470s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[4.470s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.470s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.471s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.471s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.471s] -- Up-to-date: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.471s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[4.471s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[4.471s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[4.471s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[4.471s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.472s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.472s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[4.472s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.472s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/ament_index/resource_index/rust_packages/builtin_interfaces
+[4.472s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust
+[4.472s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/src
+[4.472s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/src/msg.rs
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/src/msg
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/src/msg/rmw.rs
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/src/lib.rs
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/build.rs
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/rust/Cargo.toml
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[4.473s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.3-py3.12.egg-info
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.3-py3.12.egg-info/dependency_links.txt
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.3-py3.12.egg-info/PKG-INFO
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.3-py3.12.egg-info/top_level.txt
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.3-py3.12.egg-info/SOURCES.txt
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[4.474s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration_s.c
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration.py
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time.py
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/__init__.py
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time_s.c
+[4.475s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py
+[4.476s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.476s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[4.508s] Listing '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces'...
+[4.508s] Compiling '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py'...
+[4.508s] Listing '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg'...
+[4.508s] Compiling '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/__init__.py'...
+[4.509s] Compiling '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration.py'...
+[4.509s] Compiling '/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time.py'...
+[4.512s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.512s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.513s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.513s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[4.513s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[4.514s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so" to ""
+[4.514s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[4.514s] -- Set non-toolchain portion of runtime path of "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[4.514s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[4.515s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[4.515s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[4.515s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[4.515s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[4.516s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[4.516s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[4.516s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[4.516s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[4.516s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[4.517s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[4.517s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[4.517s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[4.517s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[4.517s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[4.518s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[4.518s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[4.518s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[4.519s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.520s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[4.520s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.520s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.520s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.520s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.521s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[4.521s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.521s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[4.521s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.521s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.522s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.522s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.522s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.522s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.522s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.523s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.523s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[4.523s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[4.523s] -- Installing: /home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[4.525s] Invoked command in '/home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_runtime:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_core_generators:/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rsanz/git/learning/ROS2/RustROS2/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rsanz/git/learning/ROS2/RustROS2/build/builtin_interfaces

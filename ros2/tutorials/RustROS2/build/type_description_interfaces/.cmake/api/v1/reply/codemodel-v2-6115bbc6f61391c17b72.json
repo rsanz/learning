@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4397c2050f41240efe1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "type_description_interfaces__rs",
+					"jsonFile" : "directory-type_description_interfaces__rs-8d1076ea9c56bb743a90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/type_description_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "type_description_interfaces__py",
+					"jsonFile" : "directory-type_description_interfaces__py-20071c2acc246dcf1d66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/type_description_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "type_description_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_type_description_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_type_description_interfaces_egg-5cac060c5efe06019dfa.json",
+					"name" : "ament_cmake_python_build_type_description_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_type_description_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_type_description_interfaces-e97c1d18ca37b5fcd742.json",
+					"name" : "ament_cmake_python_copy_type_description_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces-ff874c4307552878f7fe.json",
+					"name" : "type_description_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__cpp-3e1e8a7a53b0ab96495c.json",
+					"name" : "type_description_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "type_description_interfaces__py::@625a71c458d0e6148dd0",
+					"jsonFile" : "target-type_description_interfaces__py-5d4a2b399071bb324494.json",
+					"name" : "type_description_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_c-90d313450b81631088c1.json",
+					"name" : "type_description_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_py-4cc06869d8ed3a21456b.json",
+					"name" : "type_description_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_type_description-3054004dc45e05d9043f.json",
+					"name" : "type_description_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_c-cf810f1b692fda17431d.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_cpp-873674cb5c5327b9acb4.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_fastrtps_c-8cb0f97c0b84ae14f6bd.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_fastrtps_cpp-5c7820ab80b81c80fb72.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_introspection_c-7d07377d83007b1073d6.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_introspection_cpp-9270a317d76ab0974633.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "type_description_interfaces__rs::@14976766459ef6ebd194",
+					"jsonFile" : "target-type_description_interfaces__rs-ff15a5f51cd4271a382e.json",
+					"name" : "type_description_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_c-179a1ae5bd478bd8edc2.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_fastrtps_c-603c11cdbf39dcb13526.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_introspection_c-1562b3ddfc25d2656cfe.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_uninstall-88f583900b19e9bba9bb.json",
+					"name" : "type_description_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f96812c140baef92f36.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces",
+		"source" : "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/type_description_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

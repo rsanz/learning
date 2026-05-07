@@ -1,0 +1,16 @@
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/ament_index/resource_index/package_run_dependencies/rosidl_core_runtime
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/ament_index/resource_index/parent_prefix_path/rosidl_core_runtime
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/environment/ament_prefix_path.sh
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/environment/ament_prefix_path.dsv
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/environment/path.sh
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/environment/path.dsv
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/local_setup.bash
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/local_setup.sh
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/local_setup.zsh
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/local_setup.dsv
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/package.dsv
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/ament_index/resource_index/packages/rosidl_core_runtime
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/cmake/rosidl_core_runtime-extras.cmake
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/cmake/rosidl_core_runtimeConfig.cmake
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/cmake/rosidl_core_runtimeConfig-version.cmake
+/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/install/rosidl_core_runtime/share/rosidl_core_runtime/package.xml

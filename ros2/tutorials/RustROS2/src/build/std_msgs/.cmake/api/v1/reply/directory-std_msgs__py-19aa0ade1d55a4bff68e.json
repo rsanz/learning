@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "std_msgs__py",
+		"source" : "/home/rsanz/git/learning/ros2/tutorials/RustROS2/src/build/std_msgs/std_msgs__py"
+	}
+}
