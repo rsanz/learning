@@ -1,0 +1,26 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/LoggerLevel.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:msg/SetLoggerLevelsResult.msg",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/GetLoggerLevels.srv",
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/rcl_interfaces/rcl_interfaces:srv/SetLoggerLevels.srv"
+  ]
+}

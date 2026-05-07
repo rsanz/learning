@@ -1,0 +1,8 @@
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

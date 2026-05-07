@@ -1,0 +1,59 @@
+[1m[91merror[E0432][0m[1m: unresolved import `rclrs::ErrorList`[0m
+ [1m[94m--> [0msrc/listener.rs:2:22
+  [1m[94m|[0m
+[1m[94m2[0m [1m[94m|[0m use rclrs::{Context, ErrorList, SpinOptions};
+  [1m[94m|[0m                      [1m[91m^^^^^^^^^[0m [1m[91mno `ErrorList` in the root[0m
+
+[1m[91merror[E0599][0m[1m: no method named `create_basic_executor` found for struct `rclrs::Context` in the current scope[0m
+   [1m[94m--> [0msrc/talker.rs:9:28
+    [1m[94m|[0m
+[1m[94m  9[0m [1m[94m|[0m     let executor = context.create_basic_executor();
+    [1m[94m|[0m                            [1m[91m^^^^^^^^^^^^^^^^^^^^^[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rclrs-0.7.0/src/executor.rs:481:8
+    [1m[94m|[0m
+[1m[94m481[0m [1m[94m|[0m     fn create_basic_executor(&self) -> Executor;
+    [1m[94m|[0m        [1m[94m---------------------[0m [1m[94mthe method is available for `rclrs::Context` here[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mhelp[0m: items from traits can only be used if the trait is in scope
+[1m[96mhelp[0m: there is a method `create_executor` with a similar name, but with different arguments
+   [1m[94m--> [0m/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rclrs-0.7.0/src/context.rs:203:5
+    [1m[94m|[0m
+[1m[94m203[0m [1m[94m|[0m [1m[96m/[0m     pub fn create_executor<E>(&self, runtime: E) -> Executor
+[1m[94m204[0m [1m[94m|[0m [1m[96m|[0m     where
+[1m[94m205[0m [1m[94m|[0m [1m[96m|[0m         E: 'static + ExecutorRuntime + Send,
+    [1m[94m|[0m [1m[96m|____________________________________________^[0m
+[1m[96mhelp[0m: trait `CreateBasicExecutor` which provides `create_basic_executor` is implemented but not in scope; perhaps you want to import it
+    [1m[94m|[0m
+[1m[94m  1[0m [92m+ use rclrs::CreateBasicExecutor;[0m
+    [1m[94m|[0m
+
+[1mFor more information about this error, try `rustc --explain E0599`.[0m
+[1m[91merror[E0599][0m[1m: no method named `create_basic_executor` found for struct `rclrs::Context` in the current scope[0m
+   [1m[94m--> [0msrc/listener.rs:8:32
+    [1m[94m|[0m
+[1m[94m  8[0m [1m[94m|[0m     let mut executor = context.create_basic_executor();
+    [1m[94m|[0m                                [1m[91m^^^^^^^^^^^^^^^^^^^^^[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rclrs-0.7.0/src/executor.rs:481:8
+    [1m[94m|[0m
+[1m[94m481[0m [1m[94m|[0m     fn create_basic_executor(&self) -> Executor;
+    [1m[94m|[0m        [1m[94m---------------------[0m [1m[94mthe method is available for `rclrs::Context` here[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mhelp[0m: items from traits can only be used if the trait is in scope
+[1m[96mhelp[0m: there is a method `create_executor` with a similar name, but with different arguments
+   [1m[94m--> [0m/home/rsanz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rclrs-0.7.0/src/context.rs:203:5
+    [1m[94m|[0m
+[1m[94m203[0m [1m[94m|[0m [1m[96m/[0m     pub fn create_executor<E>(&self, runtime: E) -> Executor
+[1m[94m204[0m [1m[94m|[0m [1m[96m|[0m     where
+[1m[94m205[0m [1m[94m|[0m [1m[96m|[0m         E: 'static + ExecutorRuntime + Send,
+    [1m[94m|[0m [1m[96m|____________________________________________^[0m
+[1m[96mhelp[0m: trait `CreateBasicExecutor` which provides `create_basic_executor` is implemented but not in scope; perhaps you want to import it
+    [1m[94m|[0m
+[1m[94m  1[0m [92m+ use rclrs::CreateBasicExecutor;[0m
+    [1m[94m|[0m
+
+[1m[91merror[0m: could not compile `rust_pubsub` (bin "talker") due to 1 previous error
+[1mSome errors have detailed explanations: E0432, E0599.[0m
+[1mFor more information about an error, try `rustc --explain E0432`.[0m
+[1m[91merror[0m: could not compile `rust_pubsub` (bin "listener") due to 2 previous errors
