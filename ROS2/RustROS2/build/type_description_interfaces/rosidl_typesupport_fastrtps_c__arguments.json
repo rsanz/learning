@@ -1,0 +1,39 @@
+{
+  "package_name": "type_description_interfaces",
+  "output_dir": "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_typesupport_fastrtps_c/type_description_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/home/rsanz/git/learning/ROS2/RustROS2/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/Field.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/FieldType.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/IndividualTypeDescription.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/KeyValue.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/TypeDescription.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/TypeSource.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/srv/GetTypeDescription.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/rsanz/git/learning/ROS2/RustROS2/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

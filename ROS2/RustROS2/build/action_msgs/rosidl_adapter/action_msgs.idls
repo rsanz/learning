@@ -1,0 +1,4 @@
+/home/rsanz/git/learning/ROS2/RustROS2/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

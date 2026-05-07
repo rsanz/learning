@@ -1,0 +1,6 @@
+{
+  "package_name": "unique_identifier_msgs",
+  "non_idl_tuples": [
+    "/home/rsanz/git/learning/ROS2/RustROS2/src/unique_identifier_msgs:msg/UUID.msg"
+  ]
+}

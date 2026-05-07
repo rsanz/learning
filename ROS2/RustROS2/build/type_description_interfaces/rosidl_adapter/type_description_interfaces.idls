@@ -1,0 +1,7 @@
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl
+/home/rsanz/git/learning/ROS2/RustROS2/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl
