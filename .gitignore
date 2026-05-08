@@ -67,3 +67,20 @@ compile_commands.json
 *.tar.gz
 *.7z
 *.bin
+
+# ------------------------------
+# LaTeX artifacts
+# ------------------------------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
